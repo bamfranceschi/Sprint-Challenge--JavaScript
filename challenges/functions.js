@@ -42,6 +42,9 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explanation: 
 
+/* nestedFunction is within the scope of myFunction, and the variable internal has been defined within the scope of myFunction as well. 
+Therefore, nestedFunction has access to variable internal.
+*/
 
 const external = "I'm outside the function";
 
